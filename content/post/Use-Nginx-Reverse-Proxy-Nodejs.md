@@ -1,5 +1,6 @@
 +++
-title = "使用 Ngnix 给 Node.js 应用做反向代理"
+title = "Use Nginx Reverse Proxy Node.js"
+description = "使用 Ngnix 给 Node.js 应用做反向代理"
 date = "2016-04-30T17:19:20+08:00"
 tags = ["Nginx", "Node.js"]
 
@@ -56,10 +57,7 @@ server {
     }
 }
 ```
-123
 
-aaaa
+
 ---
-Github Issue: [https://github.com/nodejh/test/issues/81](https://github.com/nodejh/test/issues/81)
----
-Github Issue: [https://github.com/nodejh/test/issues/85](https://github.com/nodejh/test/issues/85)
+Github Issue: [https://github.com/nodejh/test/issues/100](https://github.com/nodejh/test/issues/100)

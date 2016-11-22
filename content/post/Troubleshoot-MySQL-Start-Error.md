@@ -1,5 +1,6 @@
 +++
-title = "MySQL 启动报错问题排查"
+title = "Troubleshoot MySQL Start Error"
+description = "MySQL 启动报错问题排查"
 date = "2016-07-31T17:05:44+08:00"
 tags = ["MySQL"]
 
@@ -210,3 +211,7 @@ $ sudo launchctl unload -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.pl
 所以折腾了那么久，其实就只是因为 OS X 特殊的启动管理机制造成的 `mysqld` 自动启动并占用进程，造成我们期望的 MySQL 启动方式没有正常运行。
 
 卸载掉 `plsit` 配置并重启系统就好了！
+
+
+---
+Github Issue: [https://github.com/nodejh/test/issues/99](https://github.com/nodejh/test/issues/99)

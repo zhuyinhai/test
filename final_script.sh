@@ -40,6 +40,7 @@ newIssue(){
 		IFS='=' read -r -a array <<< "${lineTitle}"
 		# echo ${array[1]}
 		title=${array[1]}
+		title=${title//[\"]/}
 	else
 		#  echo "存在description，文章名字等于title的值"
 		 title=$(echo ${post} | cut -f 1 -d '.')
@@ -174,7 +175,14 @@ echo "完成部署博客到Github Issues!"
 
 if [ -f "result.txt" ]
 then
+	echo "===================================="
+	echo "===================================="
 	cat result.txt
+	rm result.txt
+	echo "===================================="
+	echo "===================================="
 else
-	echo "没有更新"
+	echo "====================================="
+	echo "没有更新=============================="
+	echo "====================================="
 fi

@@ -7,7 +7,7 @@ description = "Webpack 和 React 实战"
 +++
 
 ## TL;DR
-123
+
 ```
 $ git clone https://github.com/nodejh/start-react-with-webpack react-sample
 $ cd react-sample && npm install
@@ -382,7 +382,6 @@ var config = {
   }
 }
 ```
+
 ---
-Github Issue: [https://github.com/nodejh/test/issues/78](https://github.com/nodejh/test/issues/78)
----
-Github Issue: [https://github.com/nodejh/test/issues/82](https://github.com/nodejh/test/issues/82)
+Github Issue: [https://github.com/nodejh/test/issues/96](https://github.com/nodejh/test/issues/96)
